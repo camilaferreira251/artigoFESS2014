@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.4.22)  17 JUL 2014 15:45
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.4.22)  17 JUL 2014 17:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -438,7 +438,20 @@ Package graphics Info: Driver file: pdftex.def on input line 91.
 LaTeX Warning: Unused global option(s):
     [compsocconf].
 
-(./kalibro.aux)
+(./kalibro.aux
+
+LaTeX Warning: Label `fig:core_concurrent' multiply defined.
+
+
+LaTeX Warning: Label `fig:core_concurrent' multiply defined.
+
+
+LaTeX Warning: Label `fig:core_concurrent' multiply defined.
+
+
+LaTeX Warning: Label `fig:core_concurrent' multiply defined.
+
+)
 \openout1 = `kalibro.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
@@ -576,6 +589,10 @@ LaTeX Warning: Reference `sec:features' on page 2 undefined on input line 120.
 LaTeX Warning: Reference `sec:use-cases' on page 2 undefined on input line 122.
 
 
+
+LaTeX Warning: Reference `sec:final-remarkds' on page 2 undefined on input line
+ 124.
+
 ) (./03-projeto.tex) (./04-arquitetura.tex
 <images/visao_arq.png, id=11, 573.64313pt x 478.78876pt>
 File: images/visao_arq.png Graphic file (type png)
@@ -584,12 +601,33 @@ File: images/visao_arq.png Graphic file (type png)
 Package pdftex.def Info: images/visao_arq.png used on input line 9.
 (pdftex.def)             Requested size: 190.91748pt x 159.34502pt.
  [2 <./images/visao_arq.png>]) (./05-metodologia.tex) (./06-equipe.tex) [3] (./
-07-final.tex
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 43.
+07-estudo.tex
+<images/chart1.png, id=19, 346.29375pt x 150.5625pt>
+File: images/chart1.png Graphic file (type png)
+ <use images/chart1.png>
+Package pdftex.def Info: images/chart1.png used on input line 14.
+(pdftex.def)             Requested size: 190.91748pt x 83.00949pt.
 
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
-File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-)) (./kalibro.bbl)
+<images/chart2.png, id=20, 346.29375pt x 150.5625pt>
+File: images/chart2.png Graphic file (type png)
+ <use images/chart2.png>
+Package pdftex.def Info: images/chart2.png used on input line 24.
+(pdftex.def)             Requested size: 190.91748pt x 83.00949pt.
+
+<images/chart3.png, id=21, 346.29375pt x 150.5625pt>
+File: images/chart3.png Graphic file (type png)
+ <use images/chart3.png>
+Package pdftex.def Info: images/chart3.png used on input line 34.
+(pdftex.def)             Requested size: 190.91748pt x 83.00949pt.
+
+<images/chart4.png, id=22, 346.29375pt x 150.5625pt>
+File: images/chart4.png Graphic file (type png)
+ <use images/chart4.png>
+Package pdftex.def Info: images/chart4.png used on input line 44.
+(pdftex.def)             Requested size: 190.91748pt x 83.00949pt.
+)
+(./kalibro.bbl [4 <./images/chart1.png> <./images/chart2.png> <./images/chart3.
+png> <./images/chart4.png>])
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -601,31 +639,35 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[4] (./kalibro.aux)
+[5
+
+] (./kalibro.aux)
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: There were multiply-defined labels.
+
  ) 
 Here is how much of TeX's memory you used:
- 4114 strings out of 493304
- 58179 string characters out of 6139871
- 132083 words of memory out of 5000000
- 7463 multiletter control sequences out of 15000+600000
- 115485 words of font info for 131 fonts, out of 8000000 for 9000
+ 4120 strings out of 493304
+ 58400 string characters out of 6139871
+ 132122 words of memory out of 5000000
+ 7470 multiletter control sequences out of 15000+600000
+ 114864 words of font info for 129 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  37i,9n,35p,1143b,296s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/
-utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on kalibro.pdf (4 pages, 142050 bytes).
+e1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/ut
+mbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on kalibro.pdf (5 pages, 163711 bytes).
 PDF statistics:
- 51 PDF objects out of 1000 (max. 8388607)
- 35 compressed objects within 1 object stream
+ 54 PDF objects out of 1000 (max. 8388607)
+ 34 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
