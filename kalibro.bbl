@@ -55,4 +55,14 @@ E.~Tempero, ``{On Measuring Java Software},'' in \emph{{ACSC '08: Proceedings
   vol.~74.\hskip 1em plus 0.5em minus 0.4em\relax Darlinghurst, Australia,
   Australia: Australian Computer Society, Inc., 2008, pp. 7--7.
 
+\bibitem{schwaber2001}
+K.~Schwaber and M.~Beedle, \emph{Agile Software Development with Scrum},
+  1st~ed.\hskip 1em plus 0.5em minus 0.4em\relax Upper Saddle River, NJ, USA:
+  Prentice Hall PTR, 2001.
+
+\bibitem{fitzgerald2006}
+B.~Fitzgerald, G.~Hartnett, and K.~Conboy, ``Customising agile methods to
+  software practices at intel shannon,'' \emph{Eur. J. Inf. Syst.}, pp.
+  200--213, 2006.
+
 \end{thebibliography}
