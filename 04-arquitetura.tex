@@ -1,0 +1,44 @@
+\section{Arquitetura}
+\label{sec:arquitetura}
+
+O sistema que irá atender a evolução e reformulação do Portal do Software Público Brasileiro constitui-se de diversos módulos e que irão comunicar-se entre si de forma organizada e integrada para suprir as necessidades do projeto.
+%
+
+\begin{figure}[htpb]
+  \begin{center}
+    \includegraphics[width=.37\textwidth]{images/visao_arq.png}
+  \end{center}
+  \caption{Proposta de arquitetura do Novo Portal do Software Público}
+  \label{fig:core_concurrent}
+\end{figure}
+%\vspace{-0.5em}
+
+As ferramentas que serão utilizadas para suprir essas necessidades serão:
+
+\begin{itemize}
+
+\item Para lista de e-mail estamos utilizando o Mailman na versão 2 que é um software gratuito para gerenciamento de discussão eletrônica de e-mail e listas e- newsletter.
+
+\item Para Chat estamos utilizando Punjab BOSH (XMPP) que é  É uma interface HTTP cliente jabber. É um gerenciador de conexão BOSH que permite conexões de clientes persistentes para um servidor XMPP (protocolo de comunicação para mensagens orientadas a middleware baseado em XML)
+
+\item Para Plataforma de Buscas estamos utilizando Apache Solr que é uma plataforma de busca open source da Apache Lucene escrita em Java
+
+\item Para rede social estamos utilizando o Noosfero que é uma plataforma web livre para criação de redes sociais com blog, e-Portifólios, CMS, RSS, discussão temática, agenda de eventos, galeria de imagens, chat, entre outros. Ele foi desenvolvido pela Cooperativa de Tecnologias Livres – Colivre 3 em 2007, sob a licença AGPL v.3, com a proposta de permitir ao usuário criar sua própria rede social personalizada, livre e autônoma.
+
+\item Para Forge para SVN estamos utilizando o Trac que é uma ferramenta open source para controle de mudança em projetos de desenvolvimento
+
+\item Para sistemas de controle de versão estamos utilizando SVN e Git que são ferramentas open-source para controle de mudança em projetos de desenvolvimento
+
+\item Para Forge para Git estamos utilizando o GitLab que é um software livre de colaboração de código online que utiliza a ferramenta de gerência de código-fonte Git
+
+\item Para sistema de gerenciamento estamos utilizando o Redmine que é uma aplicação web de gerenciamento de projetos que disponibiliza diversas ferramentas para auxiliar a gestão e manutenção de um projeto
+
+\item Para suporte a Single Sign On estamos utilizando o Mozilla Persona que foi desenvolvido pela Mozilla e permite o suporte a single sign on
+
+\item Para Sistema de Integração contínua estamos utilizando o Jenkins que é uma aplicação web de integração contínua de construção de projetos
+
+\end{itemize}
+
+Para integrar todas estas ferramentas estamos utilizando o Colab que nada mais é que uma plataforma de integração de ferramentas, o qual são integradas também as interfaces das ferramentas para que ao navegar o usuário tenha a sensação de estar navegando em uma única ferramenta.
+
+Neste projeto notamos a necessidade de utilizar vários elementos que softwares livres já oferecem e não vimos sentido em refazer algo que já está pronto e disponível para ser utilizado. No início do projeto gastamos algum tempo estudando possíveis ferramentas que pudessem ser utilizadas para resolver os diferentes problemas e para resolver e chegamos a lista apresentada.  

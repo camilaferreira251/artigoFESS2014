@@ -1,0 +1,125 @@
+\section{Introduction}
+\label{introduction}
+
+From a practical point of view, whatever the methodology, software development
+should be guided by two fundamental aspects to control the software quality
+in the long term: source code and test quality.
+%
+Software testing does not mean to evaluate the source code quality. On the other
+hand, software source code metrics can help software engineers to observe
+the source code quality.
+% 
+Software Engineering requires the understanding of software, which is the
+result from the writing of source code.
+%
+Also, software engineers and researchers need to analyze source codes to 
+understand better software projects.
+
+In the context of methodologies such as Agile Methods~\cite{beck1999} and ones
+used by Free Software\footnote{In our work, we consider the terms
+``free software'' and ``open source software'' equivalent.}~\cite{fsf}
+communities, source code is the main artefact
+of software development activities since features are constantly delivered to
+customers and users.
+%
+Usually, software source code is written gradually and different
+developers make updates and improvements on an ongoing basis~\cite{martin2008}.
+%
+%In the Free Software cases, only the successful ones.
+%
+Thus, new features are inserted and bugs are resolved during software
+development and maintenance iterations.
+
+
+An important observation on this process is that there is a significant gap
+between the numbers of lines of code which a software engineer reads and writes.
+%
+Since developers read hundreds of lines of code (including their own past codes) to
+understand an implementation to change it or write more code, source code should
+be written to be read by other people~\cite{martin2008}.  
+
+
+In addition, software engineers need to make decisions about their codes when
+they are programming at the method and class level.
+%
+The sum of these decisions influences the source code quality of
+their software~\cite{beck2007}.
+%
+To make the best decisions, they should monitor attributes from
+their source codes. 
+%
+For example, in a collaborative software development such as Free Software,
+source code organization and complexity influence the number of downloads and
+members from a Free Software project \cite{meirelles2010}.   
+
+In this scenario, source code metrics can support the development of clean code,
+i.e., clear, flexible, and simple~\cite{martin2008}.
+%
+From an automated collection of metrics and an objective way to interpret their
+values, software engineers can monitor specific characteristics of their code,
+as well as detect troublesome scenarios to make decisions about the clarity,
+flexibility and simplicity of their codes at the method and class level.
+
+However, even with the fact that source code metrics have been proposed since the
+1970s~\cite{SEI88}, there is not a set of standard measures established.
+%
+Moreover, little data are available or known to compare their effects,
+as well as there is not a systematic approach to use, interpret, and
+understand software metrics.
+%
+Thus, software measurement, specially the use of source code
+metrics, are not fully explored in the software development~\cite{Tempero2008}.
+%TODO: preciso colocar uma outra referencia aqui
+%
+Metric specialists are capable of using and understanding source code
+metrics, but all software engineers should know how to use these metrics to
+monitor and improve their source codes.
+
+To make that easier, it is necessary for a tool to systematize the
+source code evaluation.
+%
+We have identified, in particular, two limitations from current available tools,
+i.e., lack of the following features:
+%
+(i) to collect automatically source code metrics values independent of the
+programming language;  
+(ii) to interpret measurement results, associating them with source code
+quality.
+%
+The first is important because software engineers and developers should be able
+to use the same tool for different languages, which would provide a similar set
+of metrics.
+%
+The second takes a new approach how to analyze source code metrics values
+since an interpretation of them out of the software implementation context can
+not indicate and evaluate interesting source code attributes~\cite{SEI88}.
+
+
+Since source code assessment tools frequently show their results as 
+isolated numeric values for each metric, they are limited from the
+perspective of software engineers who are not metric specialists. 
+%
+Therefore, in this paper, we present Kalibro Metrics, a Free Software tool
+designed to incorporate any source code metric tool, extending it to provide
+easy to understand evaluation of the analyzed software quality.
+%
+Kalibro Metrics allows a metric specialist user to specify a set of
+acceptance ranges to each metric provided by its integrated source code metric
+collector tools, as well as enabling the definition of customized metrics.
+%
+With a set of thresholds and their respective interpretations, any software
+engineer can explore and better understand the use of source code metrics. 
+
+The remainder of this paper is organized as follows:
+%
+%
+Section \ref{sec:related-work} describes related work.
+%
+Section \ref{sec:architecture} describes Kalibro architecture.
+%
+Section \ref{sec:features} presents Kalibro features.
+%
+Section \ref{sec:use-cases} presents Kalibro use cases.
+%
+Finally, Section \ref{sec:final-remarkds} concludes the paper and discusses
+future work.
