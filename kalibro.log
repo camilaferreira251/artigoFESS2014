@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.4.22)  17 JUL 2014 17:37
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.4.22)  17 JUL 2014 18:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -454,58 +454,58 @@ LaTeX Warning: Label `fig:core_concurrent' multiply defined.
 )
 \openout1 = `kalibro.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 42.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 31.
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <5> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 42.
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 31.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 42.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 31.
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <7> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 42.
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 31.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 42.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 31.
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <8> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 42.
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 31.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 42.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 31.
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <9> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 42.
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 31.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 42.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 31.
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <10> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 42.
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 31.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <11> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 42.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 31.
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <11> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 42.
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 31.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 42.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 31.
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <12> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 42.
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 31.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <17> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 42.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 31.
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <17> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 42.
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 31.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <20> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 42.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 31.
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <20> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 42.
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 31.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 42.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 31.
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <24> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 42.
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 31.
  (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count99
@@ -566,68 +566,47 @@ Package grfext Info: Graphics extension search list:
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 45.
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 34.
 
 (./01-abstract.tex
 ** ATTENTION: \keywords is deprecated (line 25). Use \IEEEkeywords instead.
-) (./02-introduction.tex [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
-
-
-]
-
-LaTeX Warning: Reference `sec:related-work' on page 2 undefined on input line 1
-16.
-
-
-LaTeX Warning: Reference `sec:architecture' on page 2 undefined on input line 1
-18.
-
-
-LaTeX Warning: Reference `sec:features' on page 2 undefined on input line 120.
-
-
-LaTeX Warning: Reference `sec:use-cases' on page 2 undefined on input line 122.
-
-
-
-LaTeX Warning: Reference `sec:final-remarkds' on page 2 undefined on input line
- 124.
-
-) (./03-projeto.tex) (./04-arquitetura.tex
-<images/visao_arq.png, id=11, 573.64313pt x 478.78876pt>
+) (./02-introduction.tex) (./03-projeto.tex) (./04-arquitetura.tex
+<images/visao_arq.png, id=1, 573.64313pt x 478.78876pt>
 File: images/visao_arq.png Graphic file (type png)
 
 <use images/visao_arq.png>
 Package pdftex.def Info: images/visao_arq.png used on input line 9.
 (pdftex.def)             Requested size: 190.91748pt x 159.34502pt.
- [2 <./images/visao_arq.png>]) (./05-metodologia.tex) (./06-equipe.tex) [3] (./
-07-estudo.tex
-<images/chart1.png, id=19, 346.29375pt x 150.5625pt>
+ [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+
+
+]) (./05-metodologia.tex) (./06-equipe.tex [2 <./images/visao_arq.png>])
+(./07-estudo.tex <images/chart1.png, id=15, 346.29375pt x 150.5625pt>
 File: images/chart1.png Graphic file (type png)
- <use images/chart1.png>
+
+<use images/chart1.png>
 Package pdftex.def Info: images/chart1.png used on input line 14.
 (pdftex.def)             Requested size: 190.91748pt x 83.00949pt.
-
-<images/chart2.png, id=20, 346.29375pt x 150.5625pt>
+ <images/chart2.png, id=16, 346.29375pt x 150.5625pt>
 File: images/chart2.png Graphic file (type png)
- <use images/chart2.png>
+
+<use images/chart2.png>
 Package pdftex.def Info: images/chart2.png used on input line 24.
 (pdftex.def)             Requested size: 190.91748pt x 83.00949pt.
-
-<images/chart3.png, id=21, 346.29375pt x 150.5625pt>
+ <images/chart3.png, id=17, 346.29375pt x 150.5625pt>
 File: images/chart3.png Graphic file (type png)
- <use images/chart3.png>
+
+<use images/chart3.png>
 Package pdftex.def Info: images/chart3.png used on input line 34.
 (pdftex.def)             Requested size: 190.91748pt x 83.00949pt.
-
-<images/chart4.png, id=22, 346.29375pt x 150.5625pt>
+ [3 <./images/chart1.png> <./images/chart2.png> <./images/chart3.png>] <images/
+chart4.png, id=21, 346.29375pt x 150.5625pt>
 File: images/chart4.png Graphic file (type png)
- <use images/chart4.png>
+
+<use images/chart4.png>
 Package pdftex.def Info: images/chart4.png used on input line 44.
 (pdftex.def)             Requested size: 190.91748pt x 83.00949pt.
-)
-(./08-conclusao.tex) [4 <./images/chart1.png> <./images/chart2.png> <./images/c
-hart3.png> <./images/chart4.png>] (./kalibro.bbl)
+) (./08-conclusao.tex) (./kalibro.bbl)
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -639,35 +618,31 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[5
+[4
 
-] (./kalibro.aux)
-
-LaTeX Warning: There were undefined references.
-
+ <./images/chart4.png>] (./kalibro.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 4126 strings out of 493304
- 58491 string characters out of 6139871
- 132140 words of memory out of 5000000
- 7473 multiletter control sequences out of 15000+600000
- 114864 words of font info for 129 fonts, out of 8000000 for 9000
+ 4097 strings out of 493304
+ 58172 string characters out of 6139871
+ 130985 words of memory out of 5000000
+ 7452 multiletter control sequences out of 15000+600000
+ 108764 words of font info for 118 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 37i,9n,35p,1143b,296s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,9n,35p,1143b,269s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf
--dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/ut
-mbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on kalibro.pdf (5 pages, 165179 bytes).
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/t
+imes/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on kalibro.pdf (4 pages, 148623 bytes).
 PDF statistics:
- 54 PDF objects out of 1000 (max. 8388607)
- 34 compressed objects within 1 object stream
+ 47 PDF objects out of 1000 (max. 8388607)
+ 29 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  26 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -21,40 +21,6 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
-\bibitem{beck1999}
-K.~Beck, \emph{Extreme Programming Explained}.\hskip 1em plus 0.5em minus
-  0.4em\relax Addison Wesley, 1999.
-
-\bibitem{fsf}
-\BIBentryALTinterwordspacing
-FSF, ``The free software definition,'' Free Software Foundation Web Site, April
-  2011. [Online]. Available: \url{http://www.gnu.org/philosophy/free-sw.html}
-\BIBentrySTDinterwordspacing
-
-\bibitem{martin2008}
-R.~C. Martin, \emph{Clean Code - A Handbook of Agile Software
-  Craftsmanship}.\hskip 1em plus 0.5em minus 0.4em\relax Prentice Hall, 2008.
-
-\bibitem{beck2007}
-K.~Beck, \emph{Implementation Pattens}.\hskip 1em plus 0.5em minus 0.4em\relax
-  Addison Wesley, 2007.
-
-\bibitem{meirelles2010}
-P.~Meirelles, C.~Santos~Jr., J.~Miranda, F.~Kon, A.~Terceiro, and C.~Chavez,
-  ``A study of the relationships between source code metrics and attractiveness
-  in free software projects,'' \emph{Software Engineering, Brazilian Symposium
-  on}, vol.~0, pp. 11--20, 2010.
-
-\bibitem{SEI88}
-E.~E. Mills, ``{Software Metrics},'' Software Engineering Institute, SEI -
-  Carnegie Mellon University, Tech. Rep., 1988.
-
-\bibitem{Tempero2008}
-E.~Tempero, ``{On Measuring Java Software},'' in \emph{{ACSC '08: Proceedings
-  of the Thirty-First Australasian Conference on Computer Science}},
-  vol.~74.\hskip 1em plus 0.5em minus 0.4em\relax Darlinghurst, Australia,
-  Australia: Australian Computer Society, Inc., 2008, pp. 7--7.
-
 \bibitem{schwaber2001}
 K.~Schwaber and M.~Beedle, \emph{Agile Software Development with Scrum},
   1st~ed.\hskip 1em plus 0.5em minus 0.4em\relax Upper Saddle River, NJ, USA:
