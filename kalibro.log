@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.4.22)  17 JUL 2014 18:02
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.4.22)  18 JUL 2014 11:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -580,7 +580,11 @@ Package pdftex.def Info: images/visao_arq.png used on input line 9.
  [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
-]) (./05-metodologia.tex) (./06-equipe.tex [2 <./images/visao_arq.png>])
+]
+Underfull \vbox (badness 4792) has occurred while \output is active []
+
+)
+(./05-metodologia.tex) [2 <./images/visao_arq.png>] (./06-equipe.tex)
 (./07-estudo.tex <images/chart1.png, id=15, 346.29375pt x 150.5625pt>
 File: images/chart1.png Graphic file (type png)
 
@@ -599,14 +603,14 @@ File: images/chart3.png Graphic file (type png)
 <use images/chart3.png>
 Package pdftex.def Info: images/chart3.png used on input line 34.
 (pdftex.def)             Requested size: 190.91748pt x 83.00949pt.
- [3 <./images/chart1.png> <./images/chart2.png> <./images/chart3.png>] <images/
-chart4.png, id=21, 346.29375pt x 150.5625pt>
+ [3 <./images/chart1.png> <./images/chart2.png>]
+<images/chart4.png, id=21, 346.29375pt x 150.5625pt>
 File: images/chart4.png Graphic file (type png)
-
-<use images/chart4.png>
+ <use images/chart4.png>
 Package pdftex.def Info: images/chart4.png used on input line 44.
 (pdftex.def)             Requested size: 190.91748pt x 83.00949pt.
-) (./08-conclusao.tex) (./kalibro.bbl)
+)
+(./08-conclusao.tex) (./kalibro.bbl)
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -620,17 +624,17 @@ Before submitting the final camera ready copy, remember to:
 
 [4
 
- <./images/chart4.png>] (./kalibro.aux)
+ <./images/chart3.png> <./images/chart4.png>] (./kalibro.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 4097 strings out of 493304
- 58172 string characters out of 6139871
- 130985 words of memory out of 5000000
- 7452 multiletter control sequences out of 15000+600000
- 108764 words of font info for 118 fonts, out of 8000000 for 9000
+ 4112 strings out of 493304
+ 58309 string characters out of 6139871
+ 131985 words of memory out of 5000000
+ 7460 multiletter control sequences out of 15000+600000
+ 113757 words of font info for 128 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  37i,9n,35p,1143b,269s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
@@ -639,7 +643,7 @@ dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/t
 imes/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pf
 b></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on kalibro.pdf (4 pages, 148623 bytes).
+Output written on kalibro.pdf (4 pages, 149115 bytes).
 PDF statistics:
  47 PDF objects out of 1000 (max. 8388607)
  29 compressed objects within 1 object stream
