@@ -1,4 +1,4 @@
-TARGET=kalibro
+TARGET=NSPB-FEES2014
 
 all: $(TARGET).tex
 	pdflatex $(TARGET).tex
