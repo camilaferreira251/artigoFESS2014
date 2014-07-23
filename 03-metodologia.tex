@@ -1,30 +1,35 @@
 \section{Metodologia}
 \label{sec:metodologia}
 
-\subsection{A Equipe}
-\label{sec:equipe}
-Para executar as ações firmadas no acordo de cooperação a UNB montou uma equipe técnica formada por engenheiros de \textit{software} e artistas-designers, na sua maioria representado por alunos de gradução e mestrado da Universidade de Brasília, os quais estão tendo sua formação complementada por meio dessa oportunidade de participarem como protagonistas em um projeto de grande magnitude.
-A equipe possui diferentes experiências e qualificações, adequadas a dinâmica e complexidade do projeto. Além de alunos, a equipe também é composta pelos professores coordenadores do projeto e por pesquisadores relacionados a comunidade de \textit{software} livre, os quais atuam tanto na execução quanto na coordenação das 
-atividades técnicas não trivais do projeto.
-
-Com isso, a transferência de tecnologias e do conhecimento acontece primeiro pela interação direta entre
-os alunos bolsistas, pesquisadores do projeto e profissionais da Secretária de Logística e Tecnologia da Informação do Ministério do Planejamento (SLTI/MP), inclusive nas decisões de escolhas
-técnicas, formas de processo, metodologias e etc. 
-
-Além disso, a equipe técnica de cerca de vinte e quatro integrantes está dividida em subequipes que atuam, no momento, em três frentes: Colab, Noosfero e \textit{Design}. Em suma, a subequipe do Noosfero está desenvolvendo um plugin com novas funcionalidades para o Novo Portal do Software Público, a subequipe do Colab está trabalhando, no momento, com configurações e integração de ferramentas e a 
-subequipe do \textit{Design} está trabalhando com a adaptação das interfaces das ferramentas integradas com o Colab.
-
-
-\subsection{Métodos de desenvolvimento e Gestão do Projeto}
-\label{sec:metodo-gestao}
-
-A Engenharia de Software tem evoluído suas práticas e metodologias em busca de padrões que regem o desenvolvimento de software de qualidade dentro dos escopos, custos e prazos desejados. 
+A equipe é formada, em sua maioria, por estudantes, de 16 de graduação e 5 de
+pós-graduação, de engenharia de \textit{software}, ciência da computação, artes
+e desenho industrial, da Universidade de Brasília e da Universidade de São
+Paulo, os quais estão tendo sua formação complementada por meio dessa
+oportunidade de participarem como protagonistas em um projeto de grande
+magnitude.
 %
-Dada a oportunidade de adoção de métodos ágeis no desenvolvimento do presente trabalho, a 
-metodologia utilizada é baseada em uma combinação das metodologias Scrum e Extreme Programming - XP. Destacam que XP e Scrum complementam um ao outro bem, com o XP provendo suporte para aspectos mais técnicos enquanto o Scrum provê práticas e técnicas para gerenciamento, planejamento e acompanhamento. Assim, com base nas experiências destacadas em~\cite{schwaber2001} e~\cite{fitzgerald2006}, na motivação de adoção de métodos ágeis no desenvolvimento de software moderno, serão apresentados os métodos XP e Scrum de forma prática, e como suas principais características estão sendo utilizadas no desenvolvimento do presente projeto.
+Cinco professores coordenam as subequipes do projeto e dois desenvolvedores,
+criadores da duas principais ferramentadas livres adotadas, atuam como
+arquitetos de software, liderando as decisões técnicas.
+%
+Além deles, três analistas do SLTI/MP acompanham e também participam da gestão
+do projeto e das decisões tecnológicas.
+%
+Em resumo, os integrantes estão divididos em subequipes que atuam, no momento,
+em quatro frentes: \emph{Proxy} de Integração, Rede Social, Monitoramento de
+código-fonte e \textit{Design} de interação.
 
 
-\subsubsection{Ciclos de Produção}
+Pelo contexto colaborativo e empírico do desenvolviemento de software livre,
+adotamos algumas práticas dos ágeis, baseada em Scrum e Extreme Programming (XP).
+%
+O XP prover o suporte aos aspectos mais técnicos, enquanto o Scrum provê
+práticas e técnicas para gerenciamento, planejamento e
+acompanhamento~\cite{schwaber2001,fitzgerald2006}. 
+
+\TODO{Descrever melhor a dinâmica do trabalho da equipe...}
+
+%\subsubsection{Ciclos de Produção}
 
 Para melhor gerenciamento a duração total do projeto foi dividida em sete \textit{Releases}, cada uma com duração de quatro meses. Ao final de cada \textit{release} é realizada uma entrega. Ou seja, serão ao todo sete etapas de resultados a serem disponibilizadas ao longo da execução do projeto.
 Para homologação e ateste técnico, é disponibilizado um resultado prévio um mês antes da entrega da \textit{Release}, chamadas de \textit{Releases} Candidatas. Assim, a partir da disponibilização do resultado da \textit{release} candidata, temos trinta dias para ajustes, correções e testes finais. 
@@ -32,12 +37,12 @@ Para homologação e ateste técnico, é disponibilizado um resultado prévio um
 Além disso, são disponibilizados resultados intermediários mensalmente. Trata-se da oportunidade da equipe da SLTI/MP poder fornecer \textit{feedbacks} de possíveis alterações ou novas funcionalidades, as quais são tratados como novos itens no \textit{backlog} para priorização.
 
 
-\subsubsection{Programação em Par}
+%\subsubsection{Programação em Par}
 
 A equipe utiliza a prática de programação em par para o desenvolvimento de todas as histórias. Temos observado que tal prática facilita o nivelamento e a disseminação do conhecimento entre todos os membros da equipe sem atrapalhar a produtividade da mesma, pelo contrário, com essa prática a validação e a verificação da história é mais confiável por estar sendo feito por pelo menos duas pessoas.
 
 
-\subsubsection{Comunicação da Equipe}
+%\subsubsection{Comunicação da Equipe}
 
 Devido a formação diversificada, a disponibilidade de horário variadas e a distribuição geográfica da equipe (com integrantes de Brasília, da Bahia e de São Paulo), precisamos definir algumas práticas que facilitassem a comunicação entre os integrantes. 
 
@@ -46,8 +51,7 @@ Para informar o \textit{status} das tarefas do projeto e evitar falhas de comuni
 Para manter o controle das atividades do projeto, utilizamos a ferramenta de gerenciamento Redmine com configuração ágil, onde são mantidos o \textit{product backlog} com as histórias de usuários, as histórias técnicas e suas respectivas tarefas. Para cada história, há um responsável associado, o qual responde pelo progresso da história, e uma pontuação, que corresponde ao esforço planejado para a mesma.
 
 
-
-\subsubsection{Eventos}
+%\subsubsection{Eventos}
 
 Baseado nos eventos da metodologia ágil \textit{Scrum}, a equipe realiza algumas cerimônias, dentre elas:
 
