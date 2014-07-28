@@ -1,4 +1,4 @@
-\section{Arquitetura}
+\section{Arquitetura e tecnologias propostas}
 \label{sec:arquitetura}
 
 O sistema que irá atender a evolução e reformulação do Portal do Software Público Brasileiro é composto por diversos módulos, os quais irão comunicar-se entre si de forma organizada e integrada para suprir as necessidades do projeto.
@@ -11,13 +11,15 @@ O sistema que irá atender a evolução e reformulação do Portal do Software P
   \caption{Proposta de arquitetura do Novo Portal do Software Público}
   \label{fig:core_concurrent}
 \end{figure}
-%\vspace{-0.5em}
+
 No início do projeto realizamos estudos de possíveis ferramentas que pudessem ser utilizadas para atender as necessidades do projeto, chegando então na lista apresentada abaixo.
 Na análise realizada chegamos ao entendimento que utilizar elementos já oferecidos por softwares livres existentes seria o ideal, pois eles já atendem às nossas necessidades, evitando o retrabalho e customizando os elementos necessários.   
 
 As ferramentas que serão utilizadas para suprir essas necessidades serão:
 
+
 \begin{itemize}
+\scalefont{0.95}
 
 \item Para lista de e-mail estamos utilizando o Mailman na versão 2, que é um software gratuito para gerenciamento de discussão eletrônica de e-mail e listas {\it e- newsletter};
 
@@ -38,8 +40,9 @@ As ferramentas que serão utilizadas para suprir essas necessidades serão:
 \item Para suporte a Single Sign On estamos utilizando o Mozilla Persona, que foi desenvolvido pela Mozilla e permite o suporte a {\it single sign on};
 
 \item Para Sistema de Integração contínua estamos utilizando o Jenkins, que é uma aplicação web de integração contínua de construção de projetos.
-
+\scalefont{1}
 \end{itemize}
+
 
 Para integrar todas estas ferramentas estamos utilizando o Colab, que é uma plataforma de integração de ferramentas. Nele, são também integradas as interfaces das ferramentas para que, ao navegar, o usuário tenha a sensação de estar navegando em uma única ferramenta.
 
