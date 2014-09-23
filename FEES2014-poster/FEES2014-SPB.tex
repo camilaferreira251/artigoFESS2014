@@ -1,0 +1,289 @@
+\documentclass[final,hyperref={pdfpagelabels=false}]{beamer}
+\usepackage{grffile}
+\mode<presentation>{\usetheme{PosterLogProb}}
+%\mode<presentation>{\usetheme{I6pd2}}
+\usepackage[portuguese,brazil]{babel}
+\usepackage[latin1]{inputenc}
+\usepackage{amsmath,amsthm, amssymb, latexsym}
+\usepackage{epsfig}
+
+%\usepackage{algorithm}
+%\usepackage{algorithmic}
+
+%\usepackage{times}\usefonttheme{professionalfonts}  % obsolete
+%\usefonttheme[onlymath]{serif}
+%\boldmath
+\usepackage[orientation=portrait,size=a0,scale=1.4,debug]{beamerposter}
+% change list indention level
+% \setdefaultleftmargin{3em}{}{}{}{}{}
+\providecommand\thispdfpagelabel[1]{}
+\setbeamertemplate{bibliography entry title}{\color{black}}
+\setbeamertemplate{bibliography entry location}{}
+\setbeamertemplate{bibliography entry note}{}
+
+
+%\usepackage{snapshot} % will write a .dep file with all dependencies, allows for easy bundling
+
+\usepackage{array,booktabs,tabularx}
+\newcolumntype{Z}{>{\centering\arraybackslash}X} % centered tabularx columns
+\newcommand{\pphantom}{\textcolor{ta3aluminium}} % phantom introduces a vertical space in p formatted table columns??!!
+
+\listfiles
+
+\usepackage{amsthm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+ \title{\huge\bfseries\hspace*{-1em} O desenvolvimento do Novo Portal do Software
+Público Brasileiro}
+\date{}
+\author{\large Camila Ferreira
+\and Aline Gonçalves
+\and Marisa Santos
+\and Paulo Meirelles
+\and Hilmer Neri
+}
+\institute[UNB]{Universidade de Brasília, Brasil}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newlength{\columnheight}
+\setlength{\columnheight}{105cm}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+\begin{frame}
+  \begin{columns}
+    % ---------------------------------------------------------%
+    % Set up a column 
+    \begin{column}{.49\textwidth}
+      \begin{beamercolorbox}[center,wd=\textwidth]{postercolumn}
+        \begin{minipage}[T]{.95\textwidth}  % tweaks the width, makes a new \textwidth
+          \parbox[t][\columnheight]{\textwidth}{ % must be some better way to set the the height, width and textwidth simultaneously
+            % Since all columns are the same length, it is all nice and tidy.  You have to get the height empirically
+            % ---------------------------------------------------------%
+            % fill each column with content
+
+\begin{block}{O que é o Portal do Software Público}
+  \begin{itemize}
+
+	\item  No contexto da promoção do software livre no governo
+federal, a Secretaria de Logística e Tecnologia da Informação
+(SLTI) do Ministério do Planejamento, Orçamento e Gestão
+(MP) inaugurou em 2007, o Portal do Software Público Brasileiro (SPB), que é um sistema web que se consolidou como
+um ambiente de compartilhamento de projetos de software no
+governo.
+
+	\item Entretanto, a evolução do SPB foi comprometida, desde
+2009, quando a plataforma do SPB não acompanhou a evolução do seu framework base, o OpenACS5 . Com isso, não
+tendo versões lançadas a partir daquele ano.
+
+
+	\item Nesse contexto, um dos passos para a concretização de
+uma nova plataforma para o SPB é a integração com novas
+tecnologias, desde uma plataforma colaborativa até sistemas
+de controle de versão e de monitoramento da qualidade do
+código-fonte. Para concretizar a evolução do SPB, a Universidade de Brasília está coordenando tal processo, através de
+uma equipe heterogênea de alunos, professores e profissionais,
+que estão aplicando práticas colaborativas de desenvolvimento
+de software e gestão de projeto que impactam no projeto e,
+em especial, na aprendizagem dos envolvidos.
+
+        
+  \end{itemize}              
+\end{block}
+
+%-------------------------------------------------------------------------------
+\vfill
+\begin{block}{Arquitetura e Tecnologias Propostas}
+\begin{itemize}
+	\item A solução que irá atender a evolução e reformulação do
+Portal do Software Público Brasileiro é composto por diversos módulos, os quais irão comunicar-se entre si de forma
+organizada e integrada para suprir as necessidades do projeto.
+
+\begin{figure}
+	  \begin{center}
+	    \includegraphics[scale=1.5]{figures/visao_arq.png}
+	    \caption{Proposta de arqutetura do novo SPB.}
+	    \label{fig:background:free-software-repository}
+	  \end{center}
+	\end{figure}
+
+	\item No início do projeto realizamos estudos de possíveis ferra-
+mentas que pudessem ser utilizadas para atender as necessi-
+dades do projeto, chegando então na lista apresentada abaixo.
+ 
+	\begin{itemize}
+	\item Para lista de e-mail estamos utilizando o Mailman na versão
+2, que é um software livre para gerenciamento de discussão
+eletrônica de e-mail e listas e- newsletter;
+
+	\item Para Chat estamos utilizando Punjab BOSH (XMPP), que é
+uma interface HTTP de cliente jabber. É um gerenciador de
+conexão BOSH que permite conexões de clientes persistentes
+para um servidor XMPP (protocolo de comunicação para
+mensagens orientadas a middleware baseado em XML);
+
+	\item Para Plataforma de Buscas estamos utilizando Apache Solr,
+que é uma plataforma de busca open source da Apache
+Lucene escrita em Java;
+
+	\item Para rede social estamos utilizando o Noosfero que é uma
+plataforma web livre para criação de redes sociais com blog,
+e-Portifólios, CMS, RSS, discussão temática, agenda de even
+tos, galeria de imagens, chat, entre outros. O desenvolvimento
+dele foi iniciado pela Cooperativa de Tecnologias Livres (Colivre) em 2007, sob a licença AGPL v.3, com a proposta
+de permitir ao usuário criar sua própria rede social personalizada, livre e autônoma;
+
+		
+	\end{itemize}
+
+
+\end{itemize}	
+
+\end{block}
+
+\vfill        
+
+}
+\end{minipage}
+\end{beamercolorbox}
+\end{column}
+% ---------------------------------------------------------%
+% end the column
+
+% ---------------------------------------------------------%
+% Set up a column 
+\begin{column}{.49\textwidth}
+  \begin{beamercolorbox}[center,wd=\textwidth]{postercolumn}
+    \begin{minipage}[T]{.95\textwidth} % tweaks the width, makes a new \textwidth
+      \parbox[t][\columnheight]{\textwidth}{ % must be some better way to set the the height, width and textwidth simultaneously
+        % Since all columns are the same length, it is all nice and tidy.  You have to get the height empirically
+        % ---------------------------------------------------------%
+        % fill each column with content
+
+
+	%\begin{block}{Arquitetura e Tecnologias Propostas}
+	
+		\begin{itemize}
+		\item Continuando a lista de ferramentas:
+			\begin{itemize}
+
+			\item Para Forge com SVN estamos utilizando o Trac, que é uma
+ferramenta open source para controle de mudanças em projetos de desenvolvimento;
+
+			\item Para sistemas de controle de versão estamos utilizando SVN
+e Git, que são ferramentas open-source para controle de
+mudanças em projetos de desenvolvimento;
+			
+			\item Para Forge com Git estamos utilizando o GitLab, que é um
+software livre de colaboração de código online que utiliza a
+ferramenta de gerência de código fonte Git;
+
+			\item Para sistema de gerenciamento estamos utilizando o Red-
+mine, que é uma aplicação web de gerenciamento de projetos
+que disponibiliza diversas ferramentas para auxiliar a gestão
+e manutenção de um projeto;
+
+			\item Para suporte a single sign on estamos utilizando o Mozilla
+Persona, que foi desenvolvido pela Mozilla e permite o suporte a single sign on;
+
+			\item Para Sistema de Integração contínua estamos utilizando o
+Jenkins, que é uma aplicação web de integração contínua de
+construção de projetos.
+		
+
+			\end{itemize}
+
+		\item Para reunir todas estas ferramentas estamos utilizando o
+Colab, que é uma plataforma de integração de ferramentas.
+Nele, são também integradas as interfaces das ferramentas para
+que, ao navegar, o usuário tenha a sensação de estar navegando
+em uma única ferramenta.
+
+		\end{itemize}	
+	
+	%\end{block}
+\vfill
+        \begin{block}{Metodologia}
+
+	\begin{itemize}
+          	\item Para melhor gerenciamento a duração total do projeto foi
+dividida em sete Releases, cada uma com duração de quatro
+meses. Ao final de cada release é realizada uma entrega. Ou
+seja, serão ao todo sete etapas de resultados a serem disponibilizadas ao longo da execução do projeto.
+
+		\item Para homologação e
+ateste técnico, é disponibilizado um resultado prévio um mês
+antes da entrega da Release, chamadas de Releases Candidatas.
+Assim, a partir da disponibilização do resultado da release
+candidata, temos trinta dias para ajustes, correções e testes
+finais.
+		\item São disponibilizados resultados intermediários
+mensalmente. Trata-se da oportunidade da equipe da SLTI/MP
+poder fornecer feedbacks de possíveis alterações ou novas
+funcionalidades, as quais são tratados como novos itens no
+backlog para priorização.
+
+		\item A equipe utiliza a prática de programação em par para
+o desenvolvimento de todas as histórias de usuários, que
+representam as funcionalidades a serem desenvolvidas, e histórias técnicas.
+
+		\item Para informar o status das tarefas do projeto e evitar falhas
+de comunicação mantemos uma lista de e-mail com todos
+os integrantes do projeto, na qual é relatado diariamente o
+status das histórias da sprint atual e eventuais problemas que
+precisam ser resolvidos.
+
+		\item Para manter o controle das atividades do projeto, utilizamos
+a ferramenta de gerenciamento Redmine com configuração
+ágil, onde são mantidos o product backlog com as histórias de
+usuários, as histórias técnicas e suas respectivas tarefas.
+
+		\item Para
+cada história, há um responsável associado, o qual responde
+pelo progresso da história, e uma pontuação, que corresponde
+ao esforço planejado para a mesma.
+
+		\item Baseado nos eventos da metodologia ágil Scrum, a equipe
+realiza algumas cerimônias, dentre elas: Stand-up, Reuniões
+de planejamento (com Planning Poker) e Reuniões de encerramento (com retrospectivas).
+
+        \end{itemize}
+          	
+        \end{block}
+             
+	\vfill
+\begin{block}{Conclusão}
+          Concluímos que a utilização de metodologias ágeis con tribuíram favoravelmente para o desenvolvimento do projeto,
+pois o escopo do mesmo está em contínua mudança e tais
+metodologias facilitaram a adaptação da equipe. Destacamos
+que XP e Scrum complementam um ao outro bem, com o
+XP provendo suporte para aspectos mais técnicos enquanto o
+Scrum provê práticas e técnicas para gerenciamento, planejamento e acompanhamento.
+
+        \end{block}
+\vfill
+      }
+      % ---------------------------------------------------------%
+      % end the column
+        \end{minipage}
+      \end{beamercolorbox}
+    \end{column}
+    % ---------------------------------------------------------%
+    % end the column
+  \end{columns}
+  %\vskip1ex
+  % \tiny\hfill\textcolor{ta2gray}{Created with \LaTeX \texttt{beamerposter}  \url{http://www-i6.informatik.rwth-aachen.de/~dreuw/latexbeamerposter.php}}
+  
+\end{frame}
+\end{document}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Local Variables: 
+%%% mode: latex
+%%% TeX-PDF-mode: t
+%%% End:
+
+% LocalWords:  ABox ABoxes PSAT
